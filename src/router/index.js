@@ -9,6 +9,10 @@ const routes = [
   {
     path: "/",
     component: () => import("../pages/HelloWorld.vue"),
+  },
+  {
+    path: "/map",
+    component: () => import("../pages/Map/index.vue"),
   }
 ];
 
